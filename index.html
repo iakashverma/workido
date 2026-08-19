@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORKIDO — Turn Your Skills Into Real Work</title>
+  <meta name="description" content="Workido is the student freelance marketplace where college students turn learned skills into real projects, verified portfolios, client experience, and income.">
+  <meta name="keywords" content="student freelance, college freelance, student projects, freelance marketplace, student portfolio, learn work earn grow">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-content">
+      <span class="badge-pill">Now Live</span>
+      <p class="announcement-text">Curated student-friendly projects across Web, Design, Writing & Code — built around academic schedules.</p>
+      <a href="#projects" class="announcement-link">Browse Projects <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" aria-label="Workido Home">
+        <span class="logo-mark">W</span>
+        <span class="logo-text">WORKIDO</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li class="nav-item"><a href="#transformation" class="nav-link">The Journey</a></li>
+          <li class="nav-item"><a href="#categories" class="nav-link">Skills & Categories</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Find Work</a></li>
+          <li class="nav-item"><a href="#for-clients" class="nav-link">For Clients</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost" id="loginBtn" type="button">Log In</button>
+        <a href="#get-started" class="btn btn-primary btn-sm">Get Started <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+        
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <a href="#" class="brand-logo">
+          <span class="logo-mark">W</span>
+          <span class="logo-text">WORKIDO</span>
+        </a>
+        <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="drawer-nav">
+        <li><a href="#how-it-works" class="drawer-link">How It Works</a></li>
+        <li><a href="#transformation" class="drawer-link">The Journey</a></li>
+        <li><a href="#categories" class="drawer-link">Skills & Categories</a></li>
+        <li><a href="#projects" class="drawer-link">Find Work</a></li>
+        <li><a href="#for-clients" class="drawer-link">For Clients</a></li>
+      </ul>
+      <div class="drawer-actions">
+        <a href="#get-started" class="btn btn-primary btn-block">Get Started <span class="btn-arrow">&rarr;</span></a>
+        <button class="btn btn-secondary btn-block">Log In</button>
+      </div>
+      <div class="drawer-footer">
+        <p class="drawer-tagline">Turn Your Skills Into Real Work.</p>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>The Student Freelance Marketplace</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Turn Your Skills<br>
+            Into <span class="headline-highlight">Real Work.</span>
+          </h1>
+
+          <p class="hero-subhead">
+            Workido helps college students turn what they know into real projects, professional experience, client-vetted portfolios, and dependable income.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              Find Your First Project <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+            <a href="#for-clients" class="btn btn-secondary btn-lg">
+              Explore Student Talent
+            </a>
+          </div>
+
+          <div class="hero-pipeline">
+            <div class="pipeline-step active">
+              <span class="pipeline-num">1</span>
+              <span class="pipeline-name">Your Skill</span>
+            </div>
+            <div class="pipeline-divider">&rarr;</div>
+            <div class="pipeline-step">
+              <span class="pipeline-num">2</span>
+              <span class="pipeline-name">Matched Project</span>
+            </div>
+            <div class="pipeline-divider">&rarr;</div>
+            <div class="pipeline-step">
+              <span class="pipeline-num">3</span>
+              <span class="pipeline-name">Real Delivery</span>
+            </div>
+            <div class="pipeline-divider">&rarr;</div>
+            <div class="pipeline-step">
+              <span class="pipeline-num">4</span>
+              <span class="pipeline-name">Proven Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visualization reveal-on-scroll" id="heroVisual">
+          
+          <div class="market-console-header">
+            <div class="console-search">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <span class="search-placeholder">Searching: <strong id="heroSkillLabel">"React & Tailwind"</strong></span>
+            </div>
+            <div class="console-tag">Student-Friendly Scopes</div>
+          </div>
+
+          <div class="market-console-body">
+            
+            <div class="console-card project-match-card">
+              <div class="card-status-row">
+                <span class="tag-status open">Accepting Applications</span>
+                <span class="time-stamp">Posted 3h ago</span>
+              </div>
+              <h3 class="card-project-title">B2B SaaS Onboarding Page Redesign</h3>
+              <p class="card-project-desc">Looking for a student frontend developer to build 3 responsive landing screens from Figma designs.</p>
+              
+              <div class="project-skills-list">
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Tailwind CSS</span>
+                <span class="skill-tag">Figma</span>
+              </div>
+
+              <div class="card-meta-row">
+                <div class="meta-item">
+                  <span class="meta-label">Fixed Milestone</span>
+                  <span class="meta-value">₹11,500</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Timeline</span>
+                  <span class="meta-value">6–8 Days</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Pacing</span>
+                  <span class="meta-value">10 hrs/wk</span>
+                </div>
+              </div>
+
+              <div class="card-action-row">
+                <button class="btn btn-primary btn-sm btn-full" id="heroApplyBtn">View Project Scope &rarr;</button>
+              </div>
+            </div>
+
+            <div class="console-card student-profile-preview">
+              <div class="profile-header-row">
+                <div class="profile-avatar-block">
+                  <div class="profile-avatar">AP</div>
+                  <div class="online-indicator" title="Available for projects"></div>
+                </div>
+                <div class="profile-main-meta">
+                  <div class="profile-name-row">
+                    <h4 class="profile-name">Akash Patel</h4>
+                    <span class="verified-badge" title="Identity & Coursework Verified">Verified Student</span>
+                  </div>
+                  <p class="profile-role">Frontend & UI Developer</p>
+                  <p class="profile-college">B.Tech CS • 3rd Year</p>
+                </div>
+              </div>
+
+              <div class="profile-proof-grid">
+                <div class="proof-metric">
+                  <span class="metric-num">4</span>
+                  <span class="metric-lbl">Delivered Gigs</span>
+                </div>
+                <div class="proof-metric">
+                  <span class="metric-num">100%</span>
+                  <span class="metric-lbl">On-Time Rate</span>
+                </div>
+                <div class="proof-metric">
+                  <span class="metric-num">₹38k</span>
+                  <span class="metric-lbl">Total Earned</span>
+                </div>
+              </div>
+
+              <div class="profile-recent-work">
+                <span class="work-label">Recent Verified Work</span>
+                <div class="recent-work-item">
+                  <div class="work-icon-box">&#128187;</div>
+                  <div class="work-info">
+                    <span class="work-name">DocuFlow Landing Page</span>
+                    <span class="work-client">Client: FinTech Startup • ★ 5.0 rating</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-badges-row">
+                <span class="mini-badge">Git Verified</span>
+                <span class="mini-badge">Fast Communicator</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="market-console-footer">
+            <span class="footer-prompt">Switch skill domain:</span>
+            <div class="domain-pills" id="heroDomainPills">
+              <button class="domain-pill active" data-skill="React & Tailwind" data-title="B2B SaaS Onboarding Page Redesign" data-budget="₹11,500" data-tags="React,Tailwind CSS,Figma" data-name="Akash Patel" data-role="Frontend Developer" data-initials="AP" data-work="DocuFlow Landing Page">Frontend Dev</button>
+              <button class="domain-pill" data-skill="Figma & UI Systems" data-title="Mobile Finance App Wireframes & UI Kit" data-budget="₹9,000" data-tags="Figma,UI/UX,Prototyping" data-name="Maya Sharma" data-role="UI/UX Designer" data-initials="MS" data-work="Pulse Habit App UI">UI/UX Design</button>
+              <button class="domain-pill" data-skill="Python & Automation" data-title="E-Commerce Product Data Extraction Script" data-budget="₹7,500" data-tags="Python,BeautifulSoup,Pandas" data-name="Devansh Roy" data-role="Python Developer" data-initials="DR" data-work="Amazon Price Scraper">Python & Scripts</button>
+              <button class="domain-pill" data-skill="Technical Writing" data-title="Developer Documentation & API Guides" data-budget="₹6,000" data-tags="Tech Writing,Markdown,Git" data-name="Ananya Iyer" data-role="Content Specialist" data-initials="AI" data-work="Auth API Documentation">Tech Content</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="gap-statement-section">
+      <div class="container">
+        <div class="statement-card">
+          <div class="statement-label">The Workido Principle</div>
+          <h2 class="statement-text">
+            Traditional hiring says: <em>"You need experience to get work."</em><br>
+            Workido says: <strong>"You already have skills. We help you turn those skills into proof."</strong>
+          </h2>
+          <p class="statement-subtext">
+            College teaches you tools, libraries, and frameworks. Workido provides the bridge to turn coursework and personal builds into scoped, paid, professional milestones.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="transformation-section" id="transformation">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <div class="section-badge">The Transformation Engine</div>
+          <h2 class="section-title">How a Skill Becomes Career Proof</h2>
+          <p class="section-desc">
+            You don't need a 5-year corporate resume to start. Here is the exact lifecycle of how college skills convert into verified career assets on Workido.
+          </p>
+        </div>
+
+        <div class="journey-wrapper reveal-on-scroll" id="journeyEngine">
+          
+          <div class="journey-track-tabs">
+            <button class="track-tab active" data-track="web">Web Development</button>
+            <button class="track-tab" data-track="design">UI/UX Design</button>
+            <button class="track-tab" data-track="python">Python & Code</button>
+            <button class="track-tab" data-track="content">Content & Copy</button>
+          </div>
+
+          <div class="journey-cards-grid" id="journeyCardsGrid">
+            
+            <div class="journey-card" data-step="1">
+              <div class="step-badge">Stage 01</div>
+              <div class="step-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 class="step-title">What You Know</h3>
+              <p class="step-desc" id="jStep1Desc">You built React components, styled CSS layouts, and built coursework demos.</p>
+              <div class="step-detail-box" id="jStep1Box">
+                <span class="box-label">Your Current Asset</span>
+                <span class="box-val" id="jStep1Val">React • JavaScript • CSS • Git</span>
+              </div>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+            <div class="journey-card" data-step="2">
+              <div class="step-badge">Stage 02</div>
+              <div class="step-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="step-title">Matched Project</h3>
+              <p class="step-desc" id="jStep2Desc">Workido pairs you with a startup needing a custom marketing page.</p>
+              <div class="step-detail-box" id="jStep2Box">
+                <span class="box-label">Client Scope</span>
+                <span class="box-val" id="jStep2Val">₹12,000 Milestone • 7 Day Sprint</span>
+              </div>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+            <div class="journey-card" data-step="3">
+              <div class="step-badge">Stage 03</div>
+              <div class="step-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <h3 class="step-title">Shipped Work</h3>
+              <p class="step-desc" id="jStep3Desc">Code pushed, approved by client, payment released to your student bank account.</p>
+              <div class="step-detail-box" id="jStep3Box">
+                <span class="box-label">Milestone Paid</span>
+                <span class="box-val success" id="jStep3Val">₹12,000 Released + 5★ Review</span>
+              </div>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">&rarr;</div>
+
+            <div class="journey-card highlight" data-step="4">
+              <div class="step-badge featured">Stage 04</div>
+              <div class="step-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <h3 class="step-title">Verified Proof</h3>
+              <p class="step-desc" id="jStep4Desc">Added directly to your Workido public portfolio with verified client feedback.</p>
+              <div class="step-detail-box" id="jStep4Box">
+                <span class="box-label">Career Outcome</span>
+                <span class="box-val" id="jStep4Val">Live Portfolio Piece + Case Study</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="four-stages-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">Core Framework</div>
+          <h2 class="section-title">The Four Pillars of Workido</h2>
+          <p class="section-desc">
+            A structured ecosystem designed from the ground up for students balancing lectures, assignments, and real career development.
+          </p>
+        </div>
+
+        <div class="stages-layout">
+          
+          <div class="stages-nav-column">
+            <div class="stages-sticky-nav" id="stagesNav">
+              
+              <button class="stage-nav-item active" data-stage="0">
+                <span class="stage-number">01</span>
+                <div class="stage-nav-text">
+                  <strong class="stage-name">LEARN</strong>
+                  <span class="stage-brief">Build useful, practical skills</span>
+                </div>
+              </button>
+
+              <button class="stage-nav-item" data-stage="1">
+                <span class="stage-number">02</span>
+                <div class="stage-nav-text">
+                  <strong class="stage-name">WORK</strong>
+                  <span class="stage-brief">Apply them to scoped projects</span>
+                </div>
+              </button>
+
+              <button class="stage-nav-item" data-stage="2">
+                <span class="stage-number">03</span>
+                <div class="stage-nav-text">
+                  <strong class="stage-name">EARN</strong>
+                  <span class="stage-brief">Get paid fairly on milestone escrow</span>
+                </div>
+              </button>
+
+              <button class="stage-nav-item" data-stage="3">
+                <span class="stage-number">04</span>
+                <div class="stage-nav-text">
+                  <strong class="stage-name">GROW</strong>
+                  <span class="stage-brief">Turn completed gigs into job offers</span>
+                </div>
+              </button>
+
+            </div>
+          </div>
+
+          <div class="stages-content-column">
+            
+            <div class="stage-detail-card" id="stageDetailCard">
+              
+              <div class="stage-top-meta">
+                <span class="stage-indicator" id="stageIndicatorTag">Phase 01 &bull; Preparation</span>
+                <h3 class="stage-display-title" id="stageDisplayTitle">You don't start from zero. You start from what you already study.</h3>
+              </div>
+
+              <p class="stage-display-paragraph" id="stageDisplayPara">
+                Whether it's React from your web lab, Figma from your design hobby, or Python from your data structures class — your existing coursework is valid starting capital. Workido benchmarks your capabilities and formats them into client-ready profiles.
+              </p>
+
+              <div class="stage-interactive-visual" id="stageVisualSlot">
+                
+                <div class="visual-learn-state">
+                  <div class="learn-chip-grid">
+                    <div class="learn-chip">
+                      <span class="chip-dot"></span>
+                      <div>
+                        <strong>Academic Project</strong>
+                        <p>E-Commerce Cart in React</p>
+                      </div>
+                    </div>
+                    <div class="learn-chip">
+                      <span class="chip-dot"></span>
+                      <div>
+                        <strong>Lab Assignment</strong>
+                        <p>SQL Database Schema</p>
+                      </div>
+                    </div>
+                    <div class="learn-chip">
+                      <span class="chip-dot"></span>
+                      <div>
+                        <strong>Self-Taught</strong>
+                        <p>Tailwind UI Prototyping</p>
+                      </div>
+                    </div>
+                    <div class="learn-chip">
+                      <span class="chip-dot"></span>
+                      <div>
+                        <strong>Portfolio Case</strong>
+                        <p>Campus Food App Mockup</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="learn-caption">
+                    Workido translates informal student artifacts into verified capability badges.
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="stage-takeaways">
+                <div class="takeaway-item">
+                  <svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span id="takeaway1">No exaggerated claims or fake experience needed</span>
+                </div>
+                <div class="takeaway-item">
+                  <svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span id="takeaway2">Skill-based verification through actual code/design samples</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="categories-section" id="categories">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">Skill Domains</div>
+          <h2 class="section-title">You already have skills. Now put them to work.</h2>
+          <p class="section-desc">
+            Explore the most in-demand disciplines where clients actively hire student talent for agile, focused deliverables.
+          </p>
+        </div>
+
+        <div class="category-cards-grid reveal-on-scroll">
+          
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <span class="cat-active-gigs">18 Active Projects</span>
+            </div>
+            <h3 class="cat-title">Web Development</h3>
+            <p class="cat-desc">Landing pages, frontend bug fixes, responsive redesigns, Webflow setups, and React components.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">React</span>
+              <span class="mini-tag">HTML/CSS</span>
+              <span class="mini-tag">JavaScript</span>
+              <span class="mini-tag">Tailwind</span>
+              <span class="mini-tag">Next.js</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹8,000 – ₹16,000</div>
+          </div>
+
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+              </div>
+              <span class="cat-active-gigs">14 Active Projects</span>
+            </div>
+            <h3 class="cat-title">UI/UX & Product Design</h3>
+            <p class="cat-desc">Figma wireframes, high-fidelity prototypes, design system components, and mobile app flows.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">Figma</span>
+              <span class="mini-tag">UI Design</span>
+              <span class="mini-tag">User Flows</span>
+              <span class="mini-tag">Wireframing</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹6,000 – ₹14,000</div>
+          </div>
+
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+              </div>
+              <span class="cat-active-gigs">11 Active Projects</span>
+            </div>
+            <h3 class="cat-title">Python & Automation</h3>
+            <p class="cat-desc">Data scraping, Google Sheets automation, REST API integrations, and backend scripts.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">Python</span>
+              <span class="mini-tag">Pandas</span>
+              <span class="mini-tag">FastAPI</span>
+              <span class="mini-tag">Web Scraping</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹5,000 – ₹12,000</div>
+          </div>
+
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+              </div>
+              <span class="cat-active-gigs">16 Active Projects</span>
+            </div>
+            <h3 class="cat-title">Graphic & Brand Design</h3>
+            <p class="cat-desc">Social media kits, pitch deck slides, event posters, marketing assets, and brand vector badges.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">Illustrator</span>
+              <span class="mini-tag">Photoshop</span>
+              <span class="mini-tag">Pitch Decks</span>
+              <span class="mini-tag">Brand Assets</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹3,500 – ₹9,000</div>
+          </div>
+
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </div>
+              <span class="cat-active-gigs">9 Active Projects</span>
+            </div>
+            <h3 class="cat-title">Technical Writing & Docs</h3>
+            <p class="cat-desc">API documentation, tech tutorials, developer changelogs, onboarding guides, and blog deep dives.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">Markdown</span>
+              <span class="mini-tag">API Docs</span>
+              <span class="mini-tag">Tech Blogs</span>
+              <span class="mini-tag">Research</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹4,000 – ₹10,000</div>
+          </div>
+
+          <div class="cat-card">
+            <div class="cat-icon-header">
+              <div class="cat-icon-frame">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 6l-9.5 9.5-5-5L1 18"></path><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <span class="cat-active-gigs">8 Active Projects</span>
+            </div>
+            <h3 class="cat-title">Growth & Operations</h3>
+            <p class="cat-desc">Social distribution, community moderation, newsletter creation, and organic SEO research.</p>
+            <div class="cat-skills-wrap">
+              <span class="mini-tag">SEO</span>
+              <span class="mini-tag">Community</span>
+              <span class="mini-tag">Newsletters</span>
+              <span class="mini-tag">Analytics</span>
+            </div>
+            <div class="cat-avg-rate">Typical gig: ₹4,000 – ₹8,500</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="profile-showcase-section" id="student-profile">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">Student Profile Standard</div>
+          <h2 class="section-title">What a Workido Student Profile Looks Like</h2>
+          <p class="section-desc">
+            No bloated corporate jargon. Profiles highlight demonstrated skills, verified coursework, completed gigs, and client reviews.
+          </p>
+        </div>
+
+        <div class="profile-showcase-container reveal-on-scroll">
+          
+          <div class="profile-dossier">
+            
+            <div class="dossier-header">
+              <div class="dossier-identity">
+                <div class="dossier-avatar">MS</div>
+                <div class="dossier-titles">
+                  <div class="dossier-name-line">
+                    <h3 class="dossier-name">Maya Sharma</h3>
+                    <span class="dossier-pill">Verified Student</span>
+                    <span class="availability-badge">&#9679; Open for 1 Project</span>
+                  </div>
+                  <p class="dossier-sub">Product & UI Designer &bull; B.Des (Interaction Design), 4th Year</p>
+                  <p class="dossier-college">National Institute of Design &bull; Expected Grad 2027</p>
+                </div>
+              </div>
+
+              <div class="dossier-header-action">
+                <button class="btn btn-primary btn-sm">Direct Project Invite</button>
+              </div>
+            </div>
+
+            <div class="dossier-grid">
+              
+              <div class="dossier-col left">
+                
+                <div class="dossier-block">
+                  <h4 class="block-heading">Core Competencies</h4>
+                  <div class="competency-list">
+                    <div class="competency-item">
+                      <span class="c-name">Figma & Design Systems</span>
+                      <span class="c-level">Advanced (4 Gigs Delivered)</span>
+                    </div>
+                    <div class="competency-item">
+                      <span class="c-name">User Flow & Wireframing</span>
+                      <span class="c-level">Proficient</span>
+                    </div>
+                    <div class="competency-item">
+                      <span class="c-name">Interactive Prototyping</span>
+                      <span class="c-level">Proficient</span>
+                    </div>
+                    <div class="competency-item">
+                      <span class="c-name">Basic HTML/CSS/Tailwind</span>
+                      <span class="c-level">Working Knowledge</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dossier-block">
+                  <h4 class="block-heading">Weekly Bandwidth</h4>
+                  <div class="bandwidth-box">
+                    <div class="bandwidth-bar-wrap">
+                      <div class="bandwidth-bar" style="width: 60%;"></div>
+                    </div>
+                    <div class="bandwidth-meta">
+                      <span>Available: <strong>12 hrs / week</strong></span>
+                      <span>Evenings & Weekends</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dossier-col right">
+                
+                <div class="dossier-block">
+                  <h4 class="block-heading">Delivered Projects on Workido (3)</h4>
+                  
+                  <div class="delivered-project-item">
+                    <div class="dp-header">
+                      <span class="dp-title">EdTech Mobile App Onboarding Flow</span>
+                      <span class="dp-budget">₹9,500</span>
+                    </div>
+                    <p class="dp-scope">Created 6 wireframe screens and interactive Figma prototype for high-school quiz app.</p>
+                    <div class="dp-feedback">
+                      <div class="feedback-stars">★★★★★</div>
+                      <p class="feedback-quote">"Maya delivered clean components and responded to feedback within hours. Would rehire."</p>
+                      <span class="client-author">— Kunal M., Founder at SkillLoop</span>
+                    </div>
+                  </div>
+
+                  <div class="delivered-project-item">
+                    <div class="dp-header">
+                      <span class="dp-title">SaaS Analytics Dashboard UI Kit</span>
+                      <span class="dp-budget">₹14,000</span>
+                    </div>
+                    <p class="dp-scope">Built a cohesive 24-component library with dark mode tokens in Figma.</p>
+                    <div class="dp-feedback">
+                      <div class="feedback-stars">★★★★★</div>
+                      <p class="feedback-quote">"Great attention to spacing and layout grids. Super practical deliverables."</p>
+                      <span class="client-author">— Sarah T., Product Lead</span>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">Live Opportunities</div>
+          <h2 class="section-title">Discover Projects Tailored for Students</h2>
+          <p class="section-desc">
+            Milestone-scoped, remote gigs with clear requirements and realistic deadlines that respect your exam and class schedules.
+          </p>
+        </div>
+
+        <div class="marketplace-filters-bar reveal-on-scroll">
+          <div class="filter-pills" id="projectFilterGroup">
+            <button class="filter-pill active" data-filter="all">All Projects (6)</button>
+            <button class="filter-pill" data-filter="web">Frontend / Web (2)</button>
+            <button class="filter-pill" data-filter="design">UI/UX & Design (2)</button>
+            <button class="filter-pill" data-filter="code">Python & Scripts (1)</button>
+            <button class="filter-pill" data-filter="content">Content & Docs (1)</button>
+          </div>
+          <div class="filter-meta-count">
+            <span id="activeProjectCount">Showing 6 curated student gigs</span>
+          </div>
+        </div>
+
+        <div class="projects-grid reveal-on-scroll" id="projectsGrid">
+          
+          <div class="gig-card" data-category="web">
+            <div class="gig-top">
+              <span class="gig-type-badge">Frontend Web</span>
+              <span class="gig-budget">₹11,000</span>
+            </div>
+            <h3 class="gig-title">Landing Page Redesign in Tailwind CSS</h3>
+            <p class="gig-brief">Convert 4 Figma pages into clean, responsive HTML/Tailwind templates with mobile navigation.</p>
+            <div class="gig-tags">
+              <span class="g-tag">Tailwind CSS</span>
+              <span class="g-tag">HTML5/JS</span>
+              <span class="g-tag">Responsive</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">FinPulse Tech</span>
+                <span class="gig-timeline">6 Days &bull; ~10 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="1">View Scope</button>
+            </div>
+          </div>
+
+          <div class="gig-card" data-category="design">
+            <div class="gig-top">
+              <span class="gig-type-badge">UI/UX Design</span>
+              <span class="gig-budget">₹8,500</span>
+            </div>
+            <h3 class="gig-title">Mobile Fitness App Wireframes & Prototype</h3>
+            <p class="gig-brief">Design simple user workout logging flows, profile dashboard, and interactive Figma preview.</p>
+            <div class="gig-tags">
+              <span class="g-tag">Figma</span>
+              <span class="g-tag">UI/UX</span>
+              <span class="g-tag">Wireframing</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">Kavita Health</span>
+                <span class="gig-timeline">5 Days &bull; ~8 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="2">View Scope</button>
+            </div>
+          </div>
+
+          <div class="gig-card" data-category="code">
+            <div class="gig-top">
+              <span class="gig-type-badge">Python / Data</span>
+              <span class="gig-budget">₹7,000</span>
+            </div>
+            <h3 class="gig-title">E-Commerce Pricing Tracker Script</h3>
+            <p class="gig-brief">Build a lightweight Python script using BeautifulSoup & Pandas to log daily product price changes into Google Sheets.</p>
+            <div class="gig-tags">
+              <span class="g-tag">Python</span>
+              <span class="g-tag">Web Scraping</span>
+              <span class="g-tag">Google Sheets API</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">RetailEdge Analytics</span>
+                <span class="gig-timeline">4 Days &bull; ~6 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="3">View Scope</button>
+            </div>
+          </div>
+
+          <div class="gig-card" data-category="web">
+            <div class="gig-top">
+              <span class="gig-type-badge">Fullstack / React</span>
+              <span class="gig-budget">₹15,000</span>
+            </div>
+            <h3 class="gig-title">React Dashboard Filter & Chart Components</h3>
+            <p class="gig-brief">Implement interactive charts (Chart.js) and filterable data tables connected to mock JSON endpoints.</p>
+            <div class="gig-tags">
+              <span class="g-tag">React</span>
+              <span class="g-tag">Chart.js</span>
+              <span class="g-tag">REST API</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">LogiCore Systems</span>
+                <span class="gig-timeline">8 Days &bull; ~12 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="4">View Scope</button>
+            </div>
+          </div>
+
+          <div class="gig-card" data-category="design">
+            <div class="gig-top">
+              <span class="gig-type-badge">Brand & Graphic</span>
+              <span class="gig-budget">₹5,500</span>
+            </div>
+            <h3 class="gig-title">Startup Pitch Deck Slide Redesign (10 Slides)</h3>
+            <p class="gig-brief">Reformat rough founder draft into a crisp, typography-driven pitch deck in Figma / Keynote.</p>
+            <div class="gig-tags">
+              <span class="g-tag">Pitch Decks</span>
+              <span class="g-tag">Figma</span>
+              <span class="g-tag">Visual Design</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">NovaCraft Studio</span>
+                <span class="gig-timeline">3 Days &bull; ~6 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="5">View Scope</button>
+            </div>
+          </div>
+
+          <div class="gig-card" data-category="content">
+            <div class="gig-top">
+              <span class="gig-type-badge">Technical Content</span>
+              <span class="gig-budget">₹6,500</span>
+            </div>
+            <h3 class="gig-title">Developer Quickstart & Authentication Guide</h3>
+            <p class="gig-brief">Write a clear, code-annotated tutorial explaining how to set up JWT authentication with Node.js.</p>
+            <div class="gig-tags">
+              <span class="g-tag">Tech Writing</span>
+              <span class="g-tag">Node.js</span>
+              <span class="g-tag">Markdown</span>
+            </div>
+            <div class="gig-footer">
+              <div class="gig-client-info">
+                <span class="client-name">DevLayer SDK</span>
+                <span class="gig-timeline">4 Days &bull; ~5 hrs/wk</span>
+              </div>
+              <button class="btn btn-outline btn-sm apply-project-btn" data-project-id="6">View Scope</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="client-experience-section" id="for-clients">
+      <div class="container">
+        
+        <div class="client-grid-wrapper">
+          
+          <div class="client-copy-col reveal-on-scroll">
+            <div class="section-badge client-badge">For Founders & Teams</div>
+            <h2 class="section-title">Find capable talent before everyone else does.</h2>
+            <p class="section-desc">
+              Hiring shouldn't mean sifting through hundreds of bloated generic resumes. Workido connects you with motivated, fast-learning college talent evaluated on actual project demos and coursework artifacts.
+            </p>
+
+            <div class="client-benefits-list">
+              
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                </div>
+                <div class="benefit-text">
+                  <strong>Proof Over Generic Credentials</strong>
+                  <p>Inspect real GitHub repos, Figma prototypes, and past coursework before you message anyone.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                </div>
+                <div class="benefit-text">
+                  <strong>Milestone Escrow Protection</strong>
+                  <p>Funds remain securely in Workido escrow until you review and approve deliverables.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="benefit-text">
+                  <strong>Priced for Agile Scopes</strong>
+                  <p>Ideal for landing pages, design systems, internal scripts, and prototypes without bloated enterprise overhead.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="client-cta-row">
+              <button class="btn btn-primary" id="postProjectModalBtn">Post a Scoped Project &rarr;</button>
+              <a href="#projects" class="btn btn-ghost">Browse Sample Scopes</a>
+            </div>
+          </div>
+
+          <div class="client-visual-col reveal-on-scroll">
+            <div class="client-workflow-panel">
+              <div class="panel-header">
+                <span class="panel-title">Hiring Workflow on Workido</span>
+                <span class="panel-pill">3 Simple Steps</span>
+              </div>
+
+              <div class="workflow-steps">
+                
+                <div class="wf-step">
+                  <div class="wf-step-marker">1</div>
+                  <div class="wf-step-body">
+                    <span class="wf-label">Post Your Deliverable</span>
+                    <p class="wf-desc">Define what you need built, budget (e.g. ₹10,000), and expected timeline.</p>
+                  </div>
+                </div>
+
+                <div class="wf-step">
+                  <div class="wf-step-marker">2</div>
+                  <div class="wf-step-body">
+                    <span class="wf-label">Receive Skill-Matched Profiles</span>
+                    <p class="wf-desc">Review 3–5 student applications with direct links to similar code or design samples.</p>
+                  </div>
+                </div>
+
+                <div class="wf-step">
+                  <div class="wf-step-marker">3</div>
+                  <div class="wf-step-body">
+                    <span class="wf-label">Fund Escrow & Receive Work</span>
+                    <p class="wf-desc">Approve final milestone, release payout, and leave verified portfolio feedback.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="escrow-badge-box">
+                <div class="escrow-icon">&#128274;</div>
+                <div class="escrow-text">
+                  <strong>Workido Milestone Assurance</strong>
+                  <span>Zero risk. Payouts are only completed when work matches your agreed scope.</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="calculator-section">
+      <div class="container">
+        
+        <div class="calculator-card reveal-on-scroll">
+          <div class="calc-header-row">
+            <div>
+              <div class="section-badge">Practical Estimator</div>
+              <h2 class="calc-title">How Workido Fits Your College Schedule</h2>
+              <p class="calc-sub">Estimate realistic monthly project capacity without compromising assignment deadlines or GPA.</p>
+            </div>
+          </div>
+
+          <div class="calc-grid">
+            
+            <div class="calc-controls">
+              <div class="control-group">
+                <label for="hoursRange" class="control-label">
+                  <span>Available Time:</span>
+                  <strong id="hoursVal">10 hours / week</strong>
+                </label>
+                <input type="range" id="hoursRange" min="5" max="25" step="5" value="10" class="range-slider">
+                <div class="range-ticks">
+                  <span>5 hrs (Light)</span>
+                  <span>15 hrs (Moderate)</span>
+                  <span>25 hrs (Full)</span>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label class="control-label">Primary Skill Domain:</label>
+                <div class="calc-domain-selector" id="calcDomains">
+                  <button class="calc-chip active" data-rate="12000">Web Development</button>
+                  <button class="calc-chip" data-rate="10000">UI/UX Design</button>
+                  <button class="calc-chip" data-rate="9000">Python Scripts</button>
+                  <button class="calc-chip" data-rate="6500">Tech Content</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-results-box">
+              <div class="result-metric">
+                <span class="res-lbl">Estimated Monthly Output</span>
+                <span class="res-big" id="estProjects">2 Projects / mo</span>
+              </div>
+
+              <div class="result-metric highlight">
+                <span class="res-lbl">Estimated Monthly Earnings</span>
+                <span class="res-big green" id="estEarnings">₹20,000 – ₹24,000</span>
+              </div>
+
+              <div class="calc-note">
+                &#9432; Based on average student milestone values and realistic part-time pacing (evenings & weekends).
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="final-cta-section" id="get-started">
+      <div class="container">
+        
+        <div class="cta-banner reveal-on-scroll">
+          <div class="cta-content">
+            <div class="section-badge white-badge">Get Started Today</div>
+            <h2 class="cta-title">Your next opportunity starts with what you already know.</h2>
+            <p class="cta-desc">
+              Put your skills to work, build client-verified portfolio proof, and take the first real step toward your professional career.
+            </p>
+
+            <div class="cta-button-row">
+              <button class="btn btn-cta-primary" id="openStudentModalBtn">
+                Join as a Student <span class="btn-arrow">&rarr;</span>
+              </button>
+              <button class="btn btn-cta-secondary" id="openClientModalBtn">
+                Hire Student Talent
+              </button>
+            </div>
+
+            <div class="cta-trust-points">
+              <span>&#10003; 100% Free for Students</span>
+              <span>&#10003; Milestone Escrow Protection</span>
+              <span>&#10003; Verified Portfolio Artifacts</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <div class="footer-brand-col">
+          <a href="#" class="brand-logo footer-logo">
+            <span class="logo-mark">W</span>
+            <span class="logo-text">WORKIDO</span>
+          </a>
+          <p class="footer-tagline">Turn Your Skills Into Real Work.</p>
+          <p class="footer-mission">
+            The student freelance marketplace connecting college talent with real-world projects, verified experience, and fair income.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">For Students</h4>
+          <ul class="footer-links">
+            <li><a href="#projects">Find Projects</a></li>
+            <li><a href="#categories">Explore Skills</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#student-profile">Profile Showcase</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">For Clients</h4>
+          <ul class="footer-links">
+            <li><a href="#for-clients">Post a Project</a></li>
+            <li><a href="#for-clients">Hiring Workflow</a></li>
+            <li><a href="#for-clients">Milestone Escrow</a></li>
+            <li><a href="#projects">Sample Scopes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Platform</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Workido</a></li>
+            <li><a href="#">Student Guidelines</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 WORKIDO Technologies. Built for student career progression.</p>
+        <div class="footer-bottom-meta">
+          <span>Learn. Work. Earn. Grow.</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="projectModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge" id="modalProjectTag">Frontend Web</span>
+          <h3 class="modal-title" id="modalProjectTitle">Project Scope</h3>
+        </div>
+        <button class="modal-close" id="closeProjectModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-meta-grid">
+          <div>
+            <span class="m-lbl">Budget</span>
+            <span class="m-val green" id="modalProjectBudget">₹11,000</span>
+          </div>
+          <div>
+            <span class="m-lbl">Timeline</span>
+            <span class="m-val" id="modalProjectTimeline">6 Days</span>
+          </div>
+          <div>
+            <span class="m-lbl">Client</span>
+            <span class="m-val" id="modalProjectClient">FinPulse Tech</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="m-sec-title">Project Deliverable</h4>
+          <p class="m-sec-desc" id="modalProjectDesc">Detailed project scope breakdown and required technical output.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="m-sec-title">Skills Needed</h4>
+          <div class="modal-tags" id="modalProjectTags"></div>
+        </div>
+
+        <div class="modal-application-box">
+          <h4 class="m-sec-title">Quick Student Pitch</h4>
+          <textarea class="form-textarea" placeholder="Briefly link 1 coursework or personal project demonstrating your skill..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="cancelProjectModal">Close</button>
+        <button class="btn btn-primary" id="submitApplyBtn">Submit 1-Click Application &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="joinModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge">Workido Access</span>
+          <h3 class="modal-title" id="joinModalTitle">Start on Workido</h3>
+        </div>
+        <button class="modal-close" id="closeJoinModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="join-modal-sub" id="joinModalSub">Join with your college email or account to start discovering verified projects.</p>
+        
+        <form class="join-form" id="joinForm" onsubmit="event.preventDefault();">
+          <div class="form-field">
+            <label class="field-label">Full Name</label>
+            <input type="text" class="field-input" placeholder="e.g. Akash Patel" required>
+          </div>
+          <div class="form-field">
+            <label class="field-label">Email (College or Personal)</label>
+            <input type="email" class="field-input" placeholder="akash@university.edu" required>
+          </div>
+          <div class="form-field">
+            <label class="field-label">Primary Skill</label>
+            <select class="field-select">
+              <option>Web Development (React / HTML / CSS)</option>
+              <option>UI/UX Design (Figma / Prototyping)</option>
+              <option>Python & Data Scripting</option>
+              <option>Graphic & Visual Design</option>
+              <option>Technical Content & Docs</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitJoinBtn">Create Student Profile &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toastNotice" role="alert" aria-live="polite">
+    <span class="toast-icon">&#10003;</span>
+    <span class="toast-message" id="toastMessage">Success</span>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
